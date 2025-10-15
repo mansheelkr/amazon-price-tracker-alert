@@ -24,20 +24,20 @@
    ```bash
    git clone https://github.com/<your-username>/amazon-price-tracker-alert.git
    cd amazon-price-tracker-alert
-2. **Create & activate a virtualenv (optional but recommended)
+2. **Create & activate a virtualenv (optional but recommended)**
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-3. **Install dependencies
+3. **Install dependencies**
    ```bash
    pip install requests beautifulsoup4 python-dotenv
-4. **Create a .env file (do NOT commit this)
+4. **Create a .env file (do NOT commit this)**
    Put your credentials inside:
    ```ini
    EMAIL_ADDRESS=your_email@example.com
    EMAIL_PASSWORD=your_app_password_or_smtp_password
    SMTP_ADDRESS=smtp.gmail.com
-5. **Ensure .env is ignored by Git
+5. **Ensure .env is ignored by Git**
    Create a .gitignore (if not present) and include:
    ```bash
    .env
